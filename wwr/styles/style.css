@@ -1,0 +1,106 @@
+:root {
+  --primary-color: #175b7d;
+  --secondary-color: #a8a8a8;
+  --warning-color: #f7ec59;
+  --danger-color: #8e3b46;
+  --accent-color: #3e442b;
+  --bg-color: hsl(55, 100%, 85%);
+}
+.logo {
+  width: 400px;
+}
+body {
+  background-color: var(--bg-color);
+}
+#content {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+nav a {
+  text-align: center;
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+nav a:hover {
+  background-color: var(--accent-color);
+  color: var(--secondary-color);
+}
+#hero-msg h1 {
+  text-align: center;
+}
+#hero-msg h4 {
+  text-align: center;
+}
+.button-box {
+  text-align: center;
+}
+main section {
+  text-align: center;
+}
+#background {
+  height: 725px;
+  background-color: var(--accent-color);
+}
+
+header {
+  background-color: #fff;
+}
+
+.book {
+  background-color: rgba(200, 200, 200, 0.3);
+  text-decoration: none;
+  color: var(--primary-color);
+}
+.book:hover {
+  background-color: var(--accent-color);
+  color: var(--secondary-color);
+}
+.join {
+  background-color: rgba(200, 200, 200, 0.3);
+  text-decoration: none;
+  color: var(--primary-color);
+}
+.join:hover {
+  background-color: var(--accent-color);
+  color: var(--secondary-color);
+}
+.msg {
+  background-color: rgba(130, 190, 255, 0.4);
+}
+.msg h2 {
+  color: var(--secondary-color);
+}
+.msg p {
+  color: var(--accent-color);
+}
+footer {
+  background-color: rgba(27, 137, 255, 0.4);
+  color: var(--primary-color);
+}
+footer a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+footer a:hover {
+  background-color: var(--accent-color);
+  color: var(--secondary-color);
+}
+footer p {
+  font-size: 1.2em;
+}
+footer p a:hover {
+  text-decoration: underline;
+}
+.home-title {
+  color: var(--primary-color);
+}
+h4 {
+  color: var(--secondary-color);
+}
+.icon {
+  width: 80px;
+}
+#hero-img {
+  width: 100%;
+}

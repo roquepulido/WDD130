@@ -168,7 +168,7 @@ main section {
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  padding: 0 1rem;
+  padding: 2rem 1rem;
 }
 .imagenes img {
   width: 100%;

@@ -176,3 +176,19 @@ main section {
 .text {
   margin-bottom: 1rem;
 }
+
+main section.back {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+}
+.imagenes-back {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem 1rem;
+}
+.text-back {
+  margin-bottom: 1rem;
+}

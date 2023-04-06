@@ -18,15 +18,23 @@ Fonts are separated by a | */
   --paragraph-font: "Roboto Mono", Lato, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #396e94; /* headlines on a white background */
-  --headline-color-on-color: white; /* headlines on a colored background */
-  --paragraph-color-on-white: #396e94; /* paragraph text on a white background */
-  --paragraph-color-on-color: white; /* paragraph text on a colored background */
-  --paragraph-background-color: #396e94;
-  --nav-link-color: #396e94;
-  --nav-background-color: #d4ac0d;
-  --nav-hover-link-color: white;
-  --nav-hover-background-color: #396e94;
+  --headline-color-on-white: var(
+    --primary-color
+  ); /* headlines on a white background */
+  --headline-color-on-color: var(
+    --neutral-color
+  ); /* headlines on a colored background */
+  --paragraph-color-on-white: var(
+    --secondary-color
+  ); /* paragraph text on a white background */
+  --paragraph-color-on-color: var(
+    --neutral-color
+  ); /* paragraph text on a colored background */
+  --paragraph-background-color: var(--secondary-color);
+  --nav-link-color: var(--primary-color);
+  --nav-background-color: var(--accent1-color);
+  --nav-hover-link-color: var(--neutral-color);
+  --nav-hover-background-color: var(--accent2-color);
 }
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
